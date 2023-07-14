@@ -1,0 +1,318 @@
+
+
+  
+  
+ .head{
+  background-color: #000000;
+  color:aqua;
+  padding: 5%;
+
+}
+
+.p{
+margin-left: 40%;
+margin-right: 40%;
+}
+
+h2{
+margin-left: 40%;
+margin-right: 40%;
+color:white;
+}
+
+h3{
+margin-left: 5%;
+margin-right: 5%;
+padding: 3%;
+}
+h4{
+margin-top: 40%;
+color:white;
+
+}
+
+
+  /* Stili per il footer */
+/* Stili per il footer */
+footer {
+  background-color: #040013;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 25px
+}
+
+.footer-content h2 {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.main-content {
+  padding-bottom: 60px; /* Altezza del footer */
+}
+
+
+.container {
+width: 100%;
+overflow: hidden;
+}
+.left {
+float: left;
+width: 63%;
+padding: 5px;
+color: white;
+padding-left: 3%;
+font-size: 67px;
+margin-top: 3%;
+font-weight: 700;
+font-weight: bold;
+margin-right: -90px;
+}
+.right-image {
+float: right;
+width: 593px; 
+height: 340px;
+border-radius: 5px;
+}
+.right-image:hover{
+border-radius: 15px;
+}
+.clear {
+clear: both;
+}
+
+.left:hover{
+ 
+  font-size: 67px;
+}
+
+body {
+background-color: #ad2424
+}
+
+.Copy {
+color: white;
+
+}
+
+
+.Destra {
+float: right;
+width: 55%;
+margin-left: 20%;
+padding: 5px;
+color: white;
+padding-left: 5%;
+padding-top: 2%;
+font-size: 25px;
+margin-bottom: 30px;
+font-weight: 500;
+font-weight: bold;
+}
+
+.cipolla {
+width: 100%;
+overflow: hidden;
+}
+
+.Foto{
+float: left;
+width: 100px; 
+height: 200px;
+margin-bottom: 20px;
+}
+
+
+.Cosa{
+float: left;
+color: white;
+margin-right: 34%;
+font-size: 30px;
+margin-top: 10%;
+}
+
+.Cosa{
+float: right;
+}
+
+.Riga1{
+margin-left: 10%;
+margin-right: 10%;
+color: grey
+}
+
+
+
+body {
+  margin: 0;
+  padding-top: 60px; 
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: fixed;
+  top: -60px; 
+  left: 0;
+  right: 0;
+  transition: top 0.3s;
+}
+
+.navbar.visible {
+  top: 0; 
+}
+
+.navbar a {
+  color: #333;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.navbar img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.Riga12{
+  padding-top: 2%;
+}
+
+.a1{
+float: right;
+width: 55%;
+margin-left: 20%;
+color: white;
+padding-top: 2%;
+font-size: 25px;
+margin-bottom: 30px;
+font-weight: 500;
+font-weight: bold;
+}
+
+.contenitore12 {
+  display: flex;
+  align-items: center;
+}
+
+.immagine {
+  margin-right: 10px;
+}
+
+.immagine:hover{
+  padding: 3%
+}
+
+.testi {
+  flex: 1;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 5%;
+  padding-right: 30%;;
+  text-decoration: none;
+}
+
+table {
+  width: 240%;
+  font-size: 35px;
+  border-collapse: collapse;
+  height: 50%;
+  padding-left: 10%;
+  border-left: 40%;
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; /* Aggiunge uno spazio per la navbar */
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: fixed;
+  top: -80px; /* Nasconde la navbar all'inizio */
+  left: 0;
+  right: 0;
+  transition: top 0.3s;
+  height: 80px; /* Altezza della navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar.visible {
+  top: 0; /* Mostra la navbar durante lo scroll verso l'alto */
+}
+
+.navbar a {
+  color: #000000;
+  text-align: left;
+  padding: 10px 16px;
+  text-decoration: none;
+  flex-grow: 1;
+  transition: transform 0.3s, background-color 0.3s;
+
+}
+
+.navbar a:hover {
+  background-color: rgb(173, 173, 173);
+  transform: scale(1.1); /* Ingrandisce l'elemento durante l'hover */;
+  padding: 2%;
+}
+
+.navbar img {
+  max-width: 150px; /* Larghezza massima dell'immagine del logo */
+  max-height: 60px; /* Altezza massima dell'immagine del logo */
+}
+
+/* Stili CSS per il contenuto di prova */
+.content {
+  height: 2000px;
+  background-color: #f1f1f1;
+  padding-top: 100px; /* Compensa lo spazio della navbar */
+}
+
+
+.riga{
+  color:#000000
+}

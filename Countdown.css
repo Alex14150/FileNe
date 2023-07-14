@@ -1,0 +1,115 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+.red-box {
+  background-color: red;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.green-box {
+  background-color: green;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.blue-box {
+  background-color: blue;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body{
+  background-color: rgb(20, 19, 22);
+}
+
+.titolo{
+  font-size: 30px;
+  padding-left: 30%;
+  color: white;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 5%;
+  padding-right: 30%;;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #333;
+  position: static;
+  }
+  
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color:white;
+  margin-top: 0px;
+  
+  }
+  
+  nav ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 30px;
+  color:white;
+  margin-top: 0px;
+  text-size-adjust: 30px;
+  }
+  
+  nav ul li a {
+  text-decoration: none;
+  color:white;
+  margin-top: 0px;
+  text-size
+  
+  }
+  
+  nav ul li a:hover {
+  background-color: #555;
+  padding: 40px;
+ }

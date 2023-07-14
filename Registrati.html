@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/svg+xml" href="Logo.svg">
+		<link rel="icon" type="image/x-icon" href="Logo.ico">
+    <title>Registrazione</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ad2424
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color:white
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color:white
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            color:rgb(0, 0, 0)
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            cursor: pointer;
+        }
+      
+
+        input[type="submit"] :hover{
+          border-radius: 5px;
+          background-color: rgb(172, 170, 170);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrazione</h1>
+        <form action="server.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Registrati">
+        </form>
+    </div>
+</body>
+</html>

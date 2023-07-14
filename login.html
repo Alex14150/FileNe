@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/svg+xml" href="Logo.svg">
+		<link rel="icon" type="image/x-icon" href="Logo.ico">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: lorem impus, sans-serif;
+            background-color: #ad2424
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+       
+        input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    
+}
+
+
+input[type="submit"]:hover {
+    background-color: #bdbaba;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Accedi">
+        </form>
+    </div>
+</body>
+</html>
